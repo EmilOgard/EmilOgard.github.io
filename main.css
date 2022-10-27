@@ -1,10 +1,31 @@
+#top {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+#top a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+#mid {
+}
+
+#bot {
+    text-align: center;
+}
+
 .flex-container {
     display: flex;
 }
 
 .flex-container div {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 100px;
+    background: darkgray;
+    border: 4px solid darkblue;
     flex: 1;
+}
+.home {
+}
+.home img {
+    width: 100%;
 }
